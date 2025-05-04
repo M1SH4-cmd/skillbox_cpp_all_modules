@@ -1,0 +1,10 @@
+{
+    "cmake.configureSettings": {
+        "CMAKE_PREFIX_PATH": "C:\\Qt\\6.8.3\\mingw_64"
+    },
+    "cmake.generator": "MinGW Makefiles",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "qt.qmake": "C:\\Qt\\6.8.3\\mingw_64\\bin\\qmake.exe",
+    "qt.creator": "C:\\Qt\\Tools\\QtCreator\\bin\\qtcreator.exe"
+} 

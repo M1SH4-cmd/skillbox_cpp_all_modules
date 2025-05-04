@@ -1,3 +1,4 @@
+#include <iostream>
 #include <QFuture>
 #include <QtConcurrent/QtConcurrent>
 #include <QGraphicsScene>
@@ -33,6 +34,14 @@ void processSingleImage(QString sourceFile, QString destFile) {
 
 int main(int argc, char** argv) {
     QApplication app(argc, argv);
-    processSingleImage("./img1.png", "./img1_BLURED.png");
+    QDir sourceDir("./images/not_blured");
+    QDir destDir("./images/blured");
+    auto images = sourceDir.entryList(QStringList() << "*.png" << "*.PNG" << "*.jpg" << "*.JPG", QDir::Files);
+    QElapsedTimer timer;
+    timer.start();
+    for (auto &filename : images) {
+        processSingleImage(sourceDir.path() + "/" + filename, destDir.path()+ "/" + "blured_" + filename);
+    }
+    std::cout << "Calc time:\t" << timer.elapsed() << " ms" << std::endl;
     return app.exec();
 }

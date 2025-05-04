@@ -2,6 +2,12 @@ cmake_minimum_required(VERSION 3.16)
 
 project(Note2 VERSION 0.1 LANGUAGES CXX)
 
+# Set compiler explicitly for MinGW
+if(MINGW)
+    set(CMAKE_C_COMPILER gcc)
+    set(CMAKE_CXX_COMPILER g++)
+endif()
+
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
@@ -13,16 +19,13 @@ find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(PROJECT_SOURCES
-
-
-
+    main.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Note2
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        main.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Note2 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
