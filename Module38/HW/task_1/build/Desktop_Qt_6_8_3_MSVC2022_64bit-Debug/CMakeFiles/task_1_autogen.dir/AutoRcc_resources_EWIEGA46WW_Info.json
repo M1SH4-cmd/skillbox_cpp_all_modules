@@ -1,0 +1,28 @@
+{
+	"BUILD_DIR" : "C:/Users/6el0z/OneDrive/Desktop/Programming/Development/C++_skillbox/Module38/HW/task_1/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/task_1_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/6el0z/OneDrive/Desktop/Programming/Development/C++_skillbox/Module38/HW/task_1/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/6el0z/OneDrive/Desktop/Programming/Development/C++_skillbox/Module38/HW/task_1/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/6el0z/OneDrive/Desktop/Programming/Development/C++_skillbox/Module38/HW/task_1",
+	"CMAKE_SOURCE_DIR" : "C:/Users/6el0z/OneDrive/Desktop/Programming/Development/C++_skillbox/Module38/HW/task_1",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "C:/Users/6el0z/OneDrive/Desktop/Programming/Development/C++_skillbox/Module38/HW/task_1/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/task_1_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/6el0z/OneDrive/Desktop/Programming/Development/C++_skillbox/Module38/HW/task_1/images/BLUEbtn.png",
+		"C:/Users/6el0z/OneDrive/Desktop/Programming/Development/C++_skillbox/Module38/HW/task_1/images/REDbtn.png",
+		"C:/Users/6el0z/OneDrive/Desktop/Programming/Development/C++_skillbox/Module38/HW/task_1/sounds/sound2.mp3",
+		"C:/Users/6el0z/OneDrive/Desktop/Programming/Development/C++_skillbox/Module38/HW/task_1/sounds/sound1.mp3"
+	],
+	"LOCK_FILE" : "C:/Users/6el0z/OneDrive/Desktop/Programming/Development/C++_skillbox/Module38/HW/task_1/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/CMakeFiles/task_1_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.8.3/msvc2022_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/6el0z/OneDrive/Desktop/Programming/Development/C++_skillbox/Module38/HW/task_1/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/CMakeFiles/task_1_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/6el0z/OneDrive/Desktop/Programming/Development/C++_skillbox/Module38/HW/task_1/resources.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}
