@@ -1,0 +1,10 @@
+# ninja log v6
+12	567	7692949051616115	build.ninja	99cc9f5224e74a38
+34	123	7692999768757349	task_3_autogen/timestamp	4aedfc315f518523
+124	4205	7692999769657359	CMakeFiles/task_3.dir/src/mainwindow.cpp.obj	cacf48f4f3fee748
+4206	4403	7692999810477218	task_3.exe	52f8274c97d1ebf0
+34	123	7692999768757349	task_3_autogen/mocs_compilation.cpp	4aedfc315f518523
+34	123	7692999768757349	C:/Users/6el0z/OneDrive/Desktop/Programming/Development/C++_skillbox/Module38/HW/task_3/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/task_3_autogen/mocs_compilation.cpp	4aedfc315f518523
+34	123	7692999768757349	C:/Users/6el0z/OneDrive/Desktop/Programming/Development/C++_skillbox/Module38/HW/task_3/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/task_3_autogen/timestamp	4aedfc315f518523
+312	2281	7692998702008575	CMakeFiles/task_3.dir/task_3_autogen/mocs_compilation.cpp.obj	2e8daa0dd27c21b0
+316	2287	7692998702038570	CMakeFiles/task_3.dir/src/main.cpp.obj	a113c8611718a400
