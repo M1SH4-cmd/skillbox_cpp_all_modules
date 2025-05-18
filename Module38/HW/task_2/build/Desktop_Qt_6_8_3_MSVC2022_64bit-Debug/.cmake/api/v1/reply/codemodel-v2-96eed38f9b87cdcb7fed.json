@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-7d3d7a472e70540fcbff.json",
+					"jsonFile" : "directory-.-Debug-4387240b67dac11ef9e6.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -18,7 +18,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -35,7 +36,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -44,7 +46,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "task_2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-task_2-Debug-80befc62c2103c554c41.json",
+					"jsonFile" : "target-task_2-Debug-6f202485961a06c3eb79.json",
 					"name" : "task_2",
 					"projectIndex" : 0
 				},
@@ -58,8 +60,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "task_2_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-task_2_autogen_timestamp_deps-Debug-de7f4be6e348fb3a5825.json",
+					"jsonFile" : "target-task_2_autogen_timestamp_deps-Debug-6c2c4831878595415f0d.json",
 					"name" : "task_2_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_2_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_2_qmlimportscan-Debug-4d5d341d5feaed09f172.json",
+					"name" : "task_2_qmlimportscan",
 					"projectIndex" : 0
 				}
 			]

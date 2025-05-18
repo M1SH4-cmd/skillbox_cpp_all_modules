@@ -217,9 +217,9 @@ C:/Users/6el0z/OneDrive/Desktop/Programming/Development/C++_skillbox/Module38/HW
  mdp:C:/Qt/6.8.3/msvc2022_64/include/QtWebEngineWidgets/QWebEngineView
  mdp:C:/Qt/6.8.3/msvc2022_64/include/QtWebEngineWidgets/qtwebenginewidgetsglobal.h
  mdp:C:/Qt/6.8.3/msvc2022_64/include/QtWebEngineWidgets/qwebengineview.h
+ mdp:C:/Qt/6.8.3/msvc2022_64/include/QtWidgets/QHBoxLayout
  mdp:C:/Qt/6.8.3/msvc2022_64/include/QtWidgets/QMainWindow
  mdp:C:/Qt/6.8.3/msvc2022_64/include/QtWidgets/QPlainTextEdit
- mdp:C:/Qt/6.8.3/msvc2022_64/include/QtWidgets/QVBoxLayout
  mdp:C:/Qt/6.8.3/msvc2022_64/include/QtWidgets/qabstractscrollarea.h
  mdp:C:/Qt/6.8.3/msvc2022_64/include/QtWidgets/qboxlayout.h
  mdp:C:/Qt/6.8.3/msvc2022_64/include/QtWidgets/qframe.h

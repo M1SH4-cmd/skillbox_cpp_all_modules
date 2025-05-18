@@ -22,6 +22,7 @@ set(SOURCES
 
 
 add_executable(task_2 ${SOURCES} ${HEADERS}
+  ui/mainwindow.ui
   #res.qrc
     )
 # Define target properties for Android with Qt 6 as:

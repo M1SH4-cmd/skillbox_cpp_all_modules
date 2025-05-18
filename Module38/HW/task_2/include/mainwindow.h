@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 #include <QPlainTextEdit>
-#include <QVBoxLayout>
+#include <QHBoxLayout>
 #include <QWebEngineView>
 
 class Redactor : public QMainWindow
@@ -15,7 +15,7 @@ public:
     ~Redactor();
 
 private:
-    QVBoxLayout *layout;
+    QHBoxLayout *layout;
     QPlainTextEdit *htmlRed;
     QWebEngineView *htmlViewer;
 };

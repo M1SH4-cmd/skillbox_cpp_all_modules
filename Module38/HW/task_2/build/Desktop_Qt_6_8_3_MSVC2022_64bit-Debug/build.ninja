@@ -166,7 +166,7 @@ build task_2_autogen_timestamp_deps: phony task_2_qmlimportscan
 #############################################
 # Utility command for task_2_autogen
 
-build task_2_autogen: phony CMakeFiles\task_2_autogen task_2_autogen\timestamp task_2_autogen\mocs_compilation.cpp task_2_autogen_timestamp_deps
+build task_2_autogen: phony CMakeFiles\task_2_autogen task_2_autogen\include\ui\ui_mainwindow.h task_2_autogen\timestamp task_2_autogen\mocs_compilation.cpp task_2_autogen_timestamp_deps
 
 
 #############################################
@@ -198,7 +198,7 @@ build .qt\qml_imports\task_2_build.cmake | ${cmake_ninja_workdir}.qt\qml_imports
 #############################################
 # Phony custom command for CMakeFiles\task_2_autogen
 
-build CMakeFiles\task_2_autogen | ${cmake_ninja_workdir}CMakeFiles\task_2_autogen: phony task_2_autogen\timestamp || task_2_autogen_timestamp_deps task_2_qmlimportscan
+build CMakeFiles\task_2_autogen task_2_autogen\include\ui\ui_mainwindow.h | ${cmake_ninja_workdir}CMakeFiles\task_2_autogen ${cmake_ninja_workdir}task_2_autogen\include\ui\ui_mainwindow.h: phony task_2_autogen\timestamp || task_2_autogen_timestamp_deps task_2_qmlimportscan
 
 # =============================================================================
 # Target aliases.
